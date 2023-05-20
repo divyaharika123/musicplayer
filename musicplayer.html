@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/musicplayer.css">
+</head>
+<body>
+<div>
+    <label for="">JIOSAAVAN</label>
+    <!-- <img class="label" src="https://o.remove.bg/downloads/e5e16d88-66a2-4084-8e45-8acf291b0a4d/jiosaavn-removebg-preview.png" alt=""> -->
+  <input onchange="data()" class="input" type="text" placeholder="Search Artists,Songs,Albums">
+</div>
+<div>
+    <button value="All" class="butval" onclick="mainfunction(event)">All</button>
+    <button value="Trending Songs" class="butval" onclick="mainfunction(event)">Trending Songs</button>
+    <button value="New Songs" class="butval" onclick="mainfunction(event)">New Songs</button>
+    <button value="Old Songs" class="butval" onclick="mainfunction(event)">Old Songs</button>
+    <button value="Album" class="butval" onclick="mainfunction(event)">Album</button>
+    <button value="Radio" class="butval" onclick="mainfunction(event)">Radio</button>
+    <button value="Podcast" class="butval" onclick="mainfunction(event)">Podcast</button>
+    <button value="Moods and Genres" class="butval" onclick="mainfunction(event)">Moods and Genres</button>
+    <button value="My Music" class="butval" onclick="mainfunction(event)">My Music</button>
+</div>
+    
+<section class="divcenter">
+    <div class="list"></div>
+<div class="songimg">
+    <!-- <img class="currentsongimg" src="https://media.istockphoto.com/id/1175435360/vector/music-note-icon-vector-illustration.jpg?s=612x612&w=0&k=20&c=R7s6RR849L57bv_c7jMIFRW4H87-FjLB8sqZ08mN0OU=" alt=""> -->
+    <!-- <img  class="currentsongimg" src="https://www.shutterstock.com/image-illustration/3d-illustration-musical-notes-signs-260nw-761313844.jpg" alt=""> -->
+    <img class="currentsongimg"src="https://cdn.dribbble.com/users/1242979/screenshots/7099165/media/e521bd143bf1e795af3ec725a68e273f.gif" alt="">
+</aside> 
+
+</div>
+</section>
+
+<div class="trend">
+    <audio class="audio" id="audiotag" controls autoplay></audio>
+</div>
+
+</body>
+<script src="../js/musicplayer.js"></script>
+</html>
